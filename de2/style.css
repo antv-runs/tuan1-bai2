@@ -42,15 +42,20 @@
 }
 
 body {
-  padding: 30px 40px 30px 25px;
-  background-color: #fff;
+  background-color: #000;
 }
 
 .main-container {
-  background-color: #e6f3fb;
-  width: 300px;
+  background-color: #fff;
+  width: 360px;
   margin: 0 auto;
+  padding: 10px 0;
+}
+
+.sub-container {
+  background-color: #e6f3fb;
   padding: 8px 13px 20px 16px;
+  margin: 0 20px;
 }
 
 .blog-pic-desc {
@@ -102,14 +107,24 @@ body {
 
 .horo-footer {
   position: relative;
-  text-align: center;
+  width: 100%;
+  font-size: 11px;
+  background-image: url("./imgs/pic_horoscopes_man.png");
+  background-size: cover;
+  background-position: center;
+  background-color: #f4f4ea;
 }
 
-.horo-footer-content {
-  position: absolute;
+.horo-footer-txt {
+  padding: 10px 20px;
+}
+
+.horo-footer-txt p {
   font-size: 11px;
-  display: flex;
-  flex-direction: column;
+}
+
+.horo-footer-txt a {
+  font-size: 11px;
 }
 
 .competion-info {
@@ -132,8 +147,14 @@ body {
 
 .news-desc-content {
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.news-desc-txt {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .btn-more {
