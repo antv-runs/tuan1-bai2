@@ -24,20 +24,20 @@ h3 {
   color: #1424f4;
 }
 
-.facts-list {
+ul li {
   list-style: none;
-}
-
-/* .facts-list::before {
-  background-image: url("./imgs/pic_start.jpg");
-  background-size: cover;
+  background-image: url("./imgs/pic_star.jpg");
   background-repeat: no-repeat;
-  color: #0a6395;
-} */
+  padding-left: 20px;
+}
 
 .custom-input {
   border: 1px solid #e1e1e1;
   padding: 2px;
+}
+
+.messages {
+  margin: 20px 0;
 }
 
 .msg-item {
@@ -47,8 +47,8 @@ h3 {
   background-size: cover;
 }
 
-.msg-item .subtxt {
-  /* margin-right: 30px; */
+.msg-content {
+  /* position: absolute; */
 }
 
 .sub-txt {
